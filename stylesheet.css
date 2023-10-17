@@ -1,0 +1,137 @@
+li{
+
+    list-style-type: none; 
+    padding-right:30px; 
+    text-align: left;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#container-2{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item-2{
+    background-color: black;
+    color:white;
+}
+
+
+
+bruhhh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #f1f1f1;
+    align-content:stretch;
+}
+
+#flex-item1,#flex-item2,#flex-item3 {
+background-color: #f1f1f1;
+  line-height: 75px;
+  font-size: 30px;
+  padding-top: 20px;
+ 
+}
+
+
+#flex-item1{
+    text-align:left;
+    
+    
+    
+    
+}
+
+#flex-item2{
+    margin-left: 40px;
+}
+
+#flex-item3{
+
+    margin-left: 200px;
+}
+li {
+
+    list-style-type: none; 
+    padding-right:30px; 
+    text-align: left;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    text-align: justify;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-bottom: auto;
+    
+}
+
+nav{padding-bottom: 80%;
+    background-color: gray;
+    padding-top: 20px;
+
+}
+
+**/
