@@ -1,137 +1,90 @@
-li{
-
-    list-style-type: none; 
-    padding-right:30px; 
-    text-align: left;
-}
-
-nav a{
-    text-decoration: none;
-    color: black;
-}
-
-
-#container-2{
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.item-2{
-    background-color: black;
-    color:white;
-}
-
-
-
-bruhhh
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**.flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: #f1f1f1;
-    align-content:stretch;
-}
-
-#flex-item1,#flex-item2,#flex-item3 {
-background-color: #f1f1f1;
-  line-height: 75px;
-  font-size: 30px;
-  padding-top: 20px;
- 
-}
-
-
-#flex-item1{
-    text-align:left;
-    
-    
-    
-    
-}
-
-#flex-item2{
-    margin-left: 40px;
-}
-
-#flex-item3{
-
-    margin-left: 200px;
-}
-li {
-
-    list-style-type: none; 
-    padding-right:30px; 
-    text-align: left;
-}
-
-nav a{
-    text-decoration: none;
-    color: black;
-}
-
 header{
-    text-align: justify;
-    background-color: black;
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: auto;
-    padding-right: auto;
-    margin-bottom: auto;
-    
+    margin:auto;
+    text-align:center;
+    padding:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(50, 4, 130);
+    background-color:plum;
+  font-size:2vw;
+  border-radius: 30px;
 }
 
-nav{padding-bottom: 80%;
-    background-color: gray;
-    padding-top: 20px;
-
+li{
+	list-style-type: none;
+	padding: 1vw;
+	margin: 1vw;
+	font-size: 2vw;
+}
+ul{
+	text-align: left;
+	background-color:purple;
+	padding: 35px;
 }
 
-**/
+a{
+	text-decoration: none;
+  color:white;
+}
+
+.flex-container1{
+    display:flex;
+    justify-content:space-around;
+}
+.flex-item1{
+    background-color:blueviolet;
+  color:white;
+  border-radius: 30px;
+     width: 100px;
+  margin: 10px;
+  text-align: center;
+  flex:65%;
+  height:65%;
+}
+
+.flex-item1 h1{
+line-height: 75px;
+  font-size: 4vw;
+}
+
+.flex-item1 p{
+  font-size: 1.5vw;
+  padding:2vw;
+  
+}
+
+.flex-item2{
+    display:flex;
+    flex-direction:column;
+    flex:35%;
+  padding:2vw;
+  }
+
+.flex-item2a{
+  height:auto;
+  text-align:center;
+  font-size: 1.5vw;
+  background-color:green;
+  color:white;
+  margin-bottom:2vw;
+  border-radius: 30px;
+}
+
+.flex-item2b{
+  height:auto;
+   background-color:blue;
+  color:white;
+  border-radius: 30px;
+  padding:2vw;
+}
+
+.flex-item2b h2{
+    font-size: 2vw;
+  }
+
+.flex-item2b p{
+    font-size: 1.5vw;
+  }
+
+  html{
+    background-color:#000000;
+  }
