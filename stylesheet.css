@@ -1,28 +1,27 @@
-*{
-  border:solid red 2px;
-}
 
 header{
   margin:auto;
   text-align:center;
   padding:.02vw;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color:rgb(50, 4, 130);
-  background-color:plum;
+  color:rgb(227, 240, 155);
+  background-color:rgb(91, 89, 65);
 font-size:2vw;
 }
 
 .flex-container1{
   display:flex;
-  justify-content:space-around;
+  justify-content:space-evenly;
+  font-size: 1.5vw;
 }
 
 #flex-item1{
   width: 20%;
-  line-height: 25px;
-  background-color: blue;
+  line-height: 2.2vw;
+  background-color: rgb(135, 182, 167);
   padding-right: 2vw;
-  border:solid black;
+  margin-right: 2%;
+  height: 40%;
 }
 
 a{
@@ -38,12 +37,27 @@ li{
 }
 
 
-ul{
-  border:solid gray 2 px;
+#flex-item3{
+  display: flex;
+  justify-content:space-around;
+  flex:10%;
+  height:65%;
+ 
 }
 
+html{
+  background-color: rgb(247, 208, 138);
+}
 
+#flex-item2{
+  font-size: 1.4vw;
+}
 
+#flex-item4{
+padding-left: 1.2vw;
+padding-right: 1.2vw;
+margin-top: 2vw;
+}
 
 
 
